@@ -1,0 +1,37 @@
+{
+  "class_name": "Grape___healthy",
+  "crop": "Grape",
+  "disease": "Healthy",
+  "is_healthy": true,
+  "cause_type": "none",
+  "spread_risk": "Low",
+  "symptoms": "No disease symptoms. Healthy plants show vibrant green leaves, firm stems, and normal growth.",
+  "organic_options": [
+    "FILL_IN \u2014 routine care tips"
+  ],
+  "chemical_options": [],
+  "pruning_advice": "FILL_IN \u2014 routine pruning advice for healthy plants",
+  "watering_advice": "FILL_IN \u2014 optimal watering schedule for this crop",
+  "soil_care": "FILL_IN \u2014 soil nutrition and pH guidance for this crop",
+  "prevention": [
+    "FILL_IN \u2014 how to keep plants healthy and prevent disease",
+    "FILL_IN \u2014 scouting schedule"
+  ],
+  "care_tips": "FILL_IN \u2014 general crop care tips (fertiliser, spacing, sun requirements)",
+  "stage_advice": {
+    "seedling": "FILL_IN",
+    "vegetative": "FILL_IN",
+    "flowering": "FILL_IN",
+    "fruiting": "FILL_IN"
+  },
+  "sources": [
+    {
+      "title": "FILL_IN",
+      "url": "FILL_IN",
+      "accessed_on": "FILL_IN"
+    }
+  ],
+  "reviewed_by": "PENDING \u2014 submit to Dr. Jagriti Gupta",
+  "reviewed_on": "PENDING",
+  "last_updated": "2026-11-23"
+}

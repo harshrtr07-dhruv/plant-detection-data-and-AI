@@ -1,0 +1,90 @@
+{
+  "class_name": "Tomato___Late_blight",
+  "crop": "Tomato",
+  "disease": "Late Blight",
+  "is_healthy": false,
+  "cause_type": "fungal",
+  "spread_risk": "High",
+
+  "symptoms": "Water-soaked, irregular dark-brown to black lesions on leaves, often with a pale green or yellow border. White, cottony sporulation visible on the underside of leaves in humid conditions. Stems may show dark brown streaks. Fruits develop firm, dark, greasy-looking spots. Disease progresses rapidly, causing entire plant collapse within days under wet, cool conditions (15–25°C).",
+
+  "organic_options": [
+    "Remove and destroy all infected plant material immediately — do not compost",
+    "Apply copper-based fungicide (copper hydroxide or Bordeaux mixture) every 7 days as a preventive spray",
+    "Spray compost tea or diluted neem oil (5 ml/litre) to slow spread",
+    "Avoid overhead irrigation — use drip irrigation to keep foliage dry",
+    "Improve air circulation by staking and pruning lower leaves"
+  ],
+
+  "chemical_options": [
+    {
+      "product": "Mancozeb 75% WP",
+      "active_ingredient": "Mancozeb",
+      "dose": "2.5 g per litre of water",
+      "frequency": "Every 7–10 days, up to 4 applications",
+      "source": "ICAR-IARI Advisory on Tomato Late Blight, 2022",
+      "note": "Follow product label and local agriculture officer's advice"
+    },
+    {
+      "product": "Metalaxyl + Mancozeb (Ridomil Gold MZ)",
+      "active_ingredient": "Metalaxyl 8% + Mancozeb 64%",
+      "dose": "2.5 g per litre of water",
+      "frequency": "Every 10 days",
+      "source": "ICAR-IARI Advisory on Tomato Late Blight, 2022",
+      "note": "Follow product label and local agriculture officer's advice"
+    },
+    {
+      "product": "Cymoxanil + Mancozeb (Curzate M8)",
+      "active_ingredient": "Cymoxanil 8% + Mancozeb 64%",
+      "dose": "2 g per litre of water",
+      "frequency": "Every 7 days during high-risk periods",
+      "source": "FAO Pest Management Guidance for Tomato, 2021",
+      "note": "Follow product label and local agriculture officer's advice"
+    }
+  ],
+
+  "pruning_advice": "Remove and bag all infected leaves and stems immediately. Do not leave debris on the ground. Prune lower leaves to improve airflow and reduce humidity at canopy level. Sterilise pruning tools with 70% alcohol between plants.",
+
+  "watering_advice": "Use drip irrigation exclusively — avoid any overhead watering. Water early in the morning so foliage dries before evening. Reduce irrigation frequency during rainy periods. Waterlogged soil dramatically increases disease spread.",
+
+  "soil_care": "Ensure well-drained soil. Add organic matter (compost) to improve drainage. Maintain soil pH 6.0–6.8. Avoid excess nitrogen fertilisation as it promotes lush, disease-susceptible growth. Apply potassium-rich fertiliser to boost plant immunity.",
+
+  "prevention": [
+    "Use certified disease-free or blight-resistant tomato varieties (e.g. IARI Pusa Hybrid 4)",
+    "Practice crop rotation — do not plant tomato or potato in the same field for 2–3 years",
+    "Maintain plant spacing of at least 60 cm for air circulation",
+    "Avoid working in the field when plants are wet",
+    "Scout fields twice a week during cool, wet weather",
+    "Remove volunteer tomato/potato plants from field edges",
+    "Use plastic mulch to prevent soil splash onto lower leaves"
+  ],
+
+  "stage_advice": {
+    "seedling": "Treat seeds with Metalaxyl before planting. Inspect seedlings daily. Remove any showing water-soaked lesions immediately — one infected seedling can spread to the whole nursery.",
+    "vegetative": "Begin preventive copper spray program when plants are 20–30 cm tall. Scout weekly. Focus on lower leaf removal to improve air circulation. High-risk period if temperature is 15–25°C with rain.",
+    "flowering": "Continue fungicide rotation. Avoid high-nitrogen feeding at this stage. Mark infected plants — if more than 20% of plants show symptoms, consider a full-field spray within 24 hours.",
+    "fruiting": "Prioritise harvest of any near-ripe fruit on affected plants before disease spreads. Inspect fruit daily for greasy dark spots. Post-harvest: destroy all plant material — do not leave in field."
+  },
+
+  "sources": [
+    {
+      "title": "ICAR-IARI Advisory: Management of Late Blight of Tomato",
+      "url": "https://icar.org.in",
+      "accessed_on": "2026-11-23"
+    },
+    {
+      "title": "FAO Pest Management Guidance: Tomato Production",
+      "url": "https://www.fao.org/plant-production-protection",
+      "accessed_on": "2026-11-23"
+    },
+    {
+      "title": "UC Davis IPM: Tomato Late Blight (Phytophthora infestans)",
+      "url": "https://ipm.ucanr.edu/PMG/r783101211.html",
+      "accessed_on": "2026-11-23"
+    }
+  ],
+
+  "reviewed_by": "PENDING — submit to Dr. Jagriti Gupta",
+  "reviewed_on": "PENDING",
+  "last_updated": "2026-11-23"
+}

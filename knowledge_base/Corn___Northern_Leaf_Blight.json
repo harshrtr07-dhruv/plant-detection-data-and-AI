@@ -1,0 +1,46 @@
+{
+  "class_name": "Corn___Northern_Leaf_Blight",
+  "crop": "Corn",
+  "disease": "Northern Leaf Blight",
+  "is_healthy": false,
+  "cause_type": "FILL_IN \u2014 one of: fungal | bacterial | viral | pest | none",
+  "spread_risk": "FILL_IN \u2014 one of: Low | Medium | High",
+  "symptoms": "FILL_IN \u2014 describe visible symptoms on leaf, stem, fruit",
+  "organic_options": [
+    "FILL_IN \u2014 organic treatment 1 (source: )",
+    "FILL_IN \u2014 organic treatment 2 (source: )"
+  ],
+  "chemical_options": [
+    {
+      "product": "FILL_IN",
+      "active_ingredient": "FILL_IN",
+      "dose": "FILL_IN",
+      "frequency": "FILL_IN",
+      "source": "FILL_IN \u2014 ICAR/FAO/State Dept advisory + year",
+      "note": "Follow product label and local agriculture officer's advice"
+    }
+  ],
+  "pruning_advice": "FILL_IN",
+  "watering_advice": "FILL_IN",
+  "soil_care": "FILL_IN",
+  "prevention": [
+    "FILL_IN \u2014 prevention tip 1",
+    "FILL_IN \u2014 prevention tip 2"
+  ],
+  "stage_advice": {
+    "seedling": "FILL_IN",
+    "vegetative": "FILL_IN",
+    "flowering": "FILL_IN",
+    "fruiting": "FILL_IN"
+  },
+  "sources": [
+    {
+      "title": "FILL_IN",
+      "url": "FILL_IN",
+      "accessed_on": "FILL_IN"
+    }
+  ],
+  "reviewed_by": "PENDING \u2014 submit to Dr. Jagriti Gupta",
+  "reviewed_on": "PENDING",
+  "last_updated": "2026-11-23"
+}

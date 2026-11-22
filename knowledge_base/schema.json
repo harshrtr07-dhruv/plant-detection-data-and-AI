@@ -1,0 +1,29 @@
+{
+  "$schema": "Plant Disease Knowledge Base Entry v1.0",
+  "description": "Schema for every disease/healthy entry. All fields marked REQUIRED must be filled before review. Fields marked OPTIONAL can be null.",
+  "fields": {
+    "class_name":        { "type": "string", "required": true,  "note": "Exact PlantVillage class name e.g. Tomato___Late_blight" },
+    "crop":              { "type": "string", "required": true,  "note": "Human readable crop name e.g. Tomato" },
+    "disease":           { "type": "string", "required": true,  "note": "Human readable disease name. Use 'Healthy' for healthy classes." },
+    "is_healthy":        { "type": "boolean","required": true,  "note": "true for healthy classes" },
+    "cause_type":        { "type": "string", "required": true,  "note": "One of: fungal | bacterial | viral | pest | none (for healthy)" },
+    "spread_risk":       { "type": "string", "required": true,  "note": "One of: Low | Medium | High" },
+    "symptoms":          { "type": "string", "required": true,  "note": "Description of visible symptoms on the leaf/plant" },
+    "organic_options":   { "type": "array",  "required": true,  "note": "List of organic treatment strings" },
+    "chemical_options":  { "type": "array",  "required": true,  "note": "List of {product, active_ingredient, dose, source} objects" },
+    "pruning_advice":    { "type": "string", "required": true,  "note": "What to prune/remove" },
+    "watering_advice":   { "type": "string", "required": true,  "note": "Watering guidance" },
+    "soil_care":         { "type": "string", "required": true,  "note": "Soil and nutrition advice" },
+    "prevention":        { "type": "array",  "required": true,  "note": "List of prevention tips" },
+    "stage_advice": {
+      "type": "object", "required": true,
+      "note": "Advice per growth stage",
+      "keys": ["seedling", "vegetative", "flowering", "fruiting"]
+    },
+    "care_tips":         { "type": "string", "required": false, "note": "OPTIONAL — only for healthy classes" },
+    "sources":           { "type": "array",  "required": true,  "note": "List of {title, url, accessed_on} for all content" },
+    "reviewed_by":       { "type": "string", "required": true,  "note": "Name of agronomist or supervisor who reviewed this entry" },
+    "reviewed_on":       { "type": "string", "required": true,  "note": "Review date YYYY-MM-DD" },
+    "last_updated":      { "type": "string", "required": true,  "note": "Last edit date YYYY-MM-DD" }
+  }
+}
