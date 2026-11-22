@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Large data files (store separately — do NOT commit raw image datasets)
+data/raw/
+data/processed/
+*.zip
+*.tar.gz
+*.tar
+*.h5
+
+# Trained model files (large; commit only TFLite .tflite files < 100MB)
+*.keras
+# *.tflite   <-- TFLite files ARE committed (they're small enough for Git)
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Test output
+.pytest_cache/
+htmlcov/
+.coverage
