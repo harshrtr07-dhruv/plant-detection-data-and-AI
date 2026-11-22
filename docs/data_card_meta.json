@@ -1,0 +1,30 @@
+{
+  "source": "PlantVillage Dataset",
+  "source_url": "https://www.kaggle.com/datasets/emmarex/plantdisease",
+  "licence": "Creative Commons CC-BY 4.0",
+  "download_date": "TBD",
+  "version_used": "Colour (RGB)",
+  "total_classes": 38,
+  "total_images_raw": "TBD",
+  "total_images_after_cleaning": "TBD",
+  "split": {
+    "train": "70%",
+    "val": "15%",
+    "test": "15%",
+    "random_seed": 42
+  },
+  "known_weaknesses": [
+    "Lab-controlled photos — not real farm conditions",
+    "Multiple photos of the same leaf (near-duplicates)",
+    "No rice, wheat, cotton or sugarcane (Indian crops gap)",
+    "Limited lighting and background variation"
+  ],
+  "cleaning_steps": [
+    "Removed exact duplicates (MD5 hash)",
+    "Removed near-duplicates (pHash threshold <= 10)",
+    "Converted all images to RGB JPEG"
+  ],
+  "field_test_source": "PlantDoc / own photos (TBD)",
+  "reviewed_by": "TBD",
+  "last_updated": "2026-11-23"
+}
