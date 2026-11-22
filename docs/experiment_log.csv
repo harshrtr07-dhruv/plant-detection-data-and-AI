@@ -1,0 +1,1 @@
+run_id,timestamp,backbone,image_size,batch_size,epochs_round1,epochs_round2,optimizer,lr_round1,lr_round2,val_accuracy,val_loss,val_macro_f1,model_path,notes
